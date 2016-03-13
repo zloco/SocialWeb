@@ -82,7 +82,7 @@ class CustomUserManager(BaseUserManager):
 	def check_status(self):
 		return self.status_set.all()
 
-class CustomUser(AbstractBaseUser, PermissionsMixin):
+class CustomUser(AbstractBaseUser):
 	first_name = models.CharField(max_length=50)
 	last_name = models.CharField(max_length=50)
 	username = models.CharField(max_length=50)
