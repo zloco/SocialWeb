@@ -94,7 +94,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 		help_text=_('Designates whether this user should be treated as '
 					'active. Unselect this instead of deleting accounts.'))
 	date_joined = models.DateTimeField(_('date joined'), default=timezone.now)
-
+        is_superuser = models.BooleanField(_('superuser'), default=False)
 	USERNAME_FIELD = 'email'
 	REQUIRED_FIELDS = ['first_name', 'last_name']
 
