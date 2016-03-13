@@ -1,9 +1,11 @@
 decorator==4.0.9
+dj-database-url==0.4.0
 Django==1.9.2
 django-allauth==0.24.1
 django-choices==1.4.2
 django-crispy-forms==1.6.0
 facebook-sdk==0.4.0
+gunicorn==19.4.5
 ipython-genutils==0.1.0
 networkx==1.11
 oauthlib==1.0.3
@@ -28,3 +30,5 @@ virtualenv-clone==0.2.6
 virtualenvwrapper==4.7.1
 virtualenvwrapper-win==1.2.1
 wheel==0.26.0
+whitenoise==2.0.6
+psycopg2==2.5.4

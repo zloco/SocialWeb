@@ -197,6 +197,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+STATIC_ROOT = os.path.join(BASE_DIR,'static_media/')
 
 #SITE_ID = 1
 
@@ -207,3 +208,17 @@ SOCIALACCOUNT_QUERY_EMAIL = True
 SOCIALACCOUNT_ADAPTER = 'myadapter.my_adapter.MyAdapter'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
+
+import dj_database_url
+DATABASES['default'] = dj_database_url.config()
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+ALLOWED_HOSTS = ['*']
+
+DEBUG = False
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
