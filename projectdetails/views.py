@@ -8,7 +8,8 @@ from networkinstitute.models import CustomUser, ProjectOwner, Project, Faculty, 
 
 @login_required
 def home(request, pk):
-    project = get_object_or_404(Project, pk=pk)
+    project = get_object_or_404(Project, pk=pk
+	members = CustomUser.object.all()
     if request.method == "POST":
         member = request.user
         project = Project.objects.get(pk=pk)
