@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 from django.db import models
 from django.utils.http import urlquote
-from django.contrib.auth.models import AbstractBaseUser, BaseUserManager
+from django.contrib.auth.models import AbstractBaseUser,  PermissionsMixin, BaseUserManager
 from django.utils import timezone
 from django.core.mail import send_mail
 from django.utils.translation import ugettext_lazy as _
@@ -82,7 +82,7 @@ class CustomUserManager(BaseUserManager):
 	def check_status(self):
 		return self.status_set.all()
 
-class CustomUser(AbstractBaseUser):
+class CustomUser(AbstractBaseUser, PermissionsMixin):
 	first_name = models.CharField(max_length=50)
 	last_name = models.CharField(max_length=50)
 	username = models.CharField(max_length=50)
@@ -94,7 +94,6 @@ class CustomUser(AbstractBaseUser):
 		help_text=_('Designates whether this user should be treated as '
 					'active. Unselect this instead of deleting accounts.'))
 	date_joined = models.DateTimeField(_('date joined'), default=timezone.now)
-        is_superuser = models.BooleanField(_('superuser'), default=False)
 	USERNAME_FIELD = 'email'
 	REQUIRED_FIELDS = ['first_name', 'last_name']
 
