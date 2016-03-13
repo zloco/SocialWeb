@@ -35,8 +35,6 @@ SECRET_KEY = '*h166l$ueyk2crgvzg647a7gm4ln-mfvaextfudc^z%*ccmywj'
 
 PROJECT_FOLDER = os.getcwd()
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
