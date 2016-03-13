@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}
+Project details
+{% endblock title %}
+
+
+{% block content %}
+            <h2 class="text-primary text-center">
+              {{project.name}}
+            </h2>
+             <hr style="border-color:grey">
+        
+            <div class="row">
+                <h5 class="text-center"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Owner: {{project.owner}}</h5>
+                <h5 class="text-center"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>Deadline: {{project.deadline}} </h5>
+            </div>
+            <hr style="border-color:grey">
+                <div class="row container">
+              <p style="font-size:20px;">{{project.description}}</p>
+            </div>
+            <hr>
+              <div class="row">
+
+        <div class="col-md-1"></div>
+
+                    <form action="" method="post">
+  			            {% csrf_token %}
+                        {{ form|crispy }}
+                        <button type="submit" class="btn btn-primary col-md-4  ">Apply</button>
+                    </form>
+
+              <div class="col-md-2"></div>
+                  <a href="{% url 'allprojects_home' %}" type="button" class="btn btn-primary col-md-4 ">Back</a>
+
+             <div class="col-md-1"></div>
+                
+              </div>
+{% endblock %}
+   

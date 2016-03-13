@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{ user.first_name }}'s profile
+{% endblock title %}
+
+{% block content %}
+<div >
+  		<h4 class="text-primary"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Name</h4>
+  		<h3>{{ full_name }} </h3><br>
+  		<h4 class="text-primary"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Email</h4>
+  		<h3>{{ email }}</h3><br>
+</div>
+
+{% endblock content %}

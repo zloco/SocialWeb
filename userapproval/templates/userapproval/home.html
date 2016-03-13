@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block title %}
+Approve or decline applicants
+{% endblock title %}
+
+{% block content %}
+
+   <h2 class="text-primary text-center">
+              {{ project.name }}
+            </h2>
+            <hr>
+        
+            <div class="row">
+                <h5 class="text-center"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Owner: {{project.owner}}</h5>
+                <h5 class="text-center"><span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>Deadline: {{project.deadline}}</h5>
+            </div>
+            <hr>
+                
+              
+                <div class="row">
+                  <h3 class="text-primary text-center">
+                      Applicants
+                    </h3><br>
+                     <table class="table"> 
+                
+                  <thead> 
+                    <tr> 
+                      
+                      <th>Email</th>
+                      <th>Own projects</th>
+                       <th>Worked on projects</th> 
+                  
+                      <th></th>
+                      </tr> 
+                  </thead>
+                     <tbody> 
+                       {% for m in project.members.all %}
+                      <tr>
+                        <td ><span class="text-primary">{{ m }}</span></td>
+                         <td>
+                            <ul>
+                              <li><a href="">Project 1</a></li>
+                              <li><a href="">Project 2</a></li>
+                              <li><a href="">Project 3</a></li>
+
+                            </ul>
+                         </td>
+                         <td>   <ul>
+                              <li><a href="">Project 1</a></li>
+                              <li><a href="">Project 2</a></li>
+                              <li><a href="">Project 3</a></li>
+
+                            </ul></td> 
+                       
+                         <td>
+                             <form action="" method="post" name="form">
+                            {% csrf_token %}
+                            {{ form|crispy }}
+                                <button type="submit" class="btn btn-success col-md-12" name="approve{{ m.pk }}" value="Approve" style="margin-bottom:5px;"><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  Approve</button>
+                                 <button type="submit" class="btn btn-danger col-md-12" name="decline{{ m.pk }}" value="Decline"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>  Decline</button>
+                             </form>
+                         </td>
+
+                          </tr>
+                        {% endfor %}
+
+
+
+
+
+
+
+                             
+                                    </tbody>
+                                     </table>
+                  
+                </div>
+                <hr>
+                <div class="row">
+                  <div class="col-md-4 well text-center">
+                      <h4><span class="glyphicon glyphicon-ok" aria-hidden="true"></span>  Approved</h4>
+                              <h3 style="color:green;font-width:bold">{{ appr.count }}</h3>
+                  </div>
+                    <div class="col-md-4 well text-center">
+                         <h4><span class="glyphicon glyphicon-remove" aria-hidden="true"></span>  Declined</h4>
+                        <h3 style="color:red;font-width:bold">{{ decl.count }}</h3>
+                    </div>
+                      <div class="col-md-4 well text-center">
+                         <h4><span class="glyphicon glyphicon-user" aria-hidden="true"></span>  Applied</h4>
+                              <h3 style="color:black;font-width:bold">{{ project.members.count }}</h3>
+                    </div>
+                </div>
+
+    
+{% endblock content %}
