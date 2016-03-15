@@ -1,0 +1,1545 @@
+[
+{
+  "model": "networkinstitute.faculty",
+  "pk": 1,
+  "fields": {
+    "name": "Arts"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 2,
+  "fields": {
+    "name": "Centre for Educational Training, Assesment and Research"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 3,
+  "fields": {
+    "name": "Dentistry / ACTA"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 4,
+  "fields": {
+    "name": "Earth and Life Sciences"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 5,
+  "fields": {
+    "name": "Economics and Business Administration"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 6,
+  "fields": {
+    "name": "Human Movement Sciences"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 7,
+  "fields": {
+    "name": "Law"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 8,
+  "fields": {
+    "name": "Philosophy"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 9,
+  "fields": {
+    "name": "Psychology and Education"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 10,
+  "fields": {
+    "name": "Sciences"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 11,
+  "fields": {
+    "name": "Social Sciences"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 12,
+  "fields": {
+    "name": "Theology"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 13,
+  "fields": {
+    "name": "VUmc School of Medical Sciences"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 14,
+  "fields": {
+    "name": "Amsterdam Global Change Institute"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 15,
+  "fields": {
+    "name": "Amsterdam Institute for Molecules, Medicines and Systems"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 16,
+  "fields": {
+    "name": "Cultural Landscape and Urban Environment research institute"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 17,
+  "fields": {
+    "name": "Institute for Cardiovascular Research"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 18,
+  "fields": {
+    "name": "Institute for Lasers, Life and Biophotonics Amsterdam"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 19,
+  "fields": {
+    "name": "MOVE"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 20,
+  "fields": {
+    "name": "Neuroscience Campus Amsterdam"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 21,
+  "fields": {
+    "name": "Phoolan Devi Institute"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 22,
+  "fields": {
+    "name": "VISOR"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 23,
+  "fields": {
+    "name": "VUmc Cancer Center Amsterdam"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5fnk1fhkro8ds72bsr8vmevx83pxdmxx",
+  "fields": {
+    "session_data": "ZWFmYTM2ZjhlM2JkMDc0ZjgwOTFmZDBiZDQxMDU3MzFmNWQ2MjYyZTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6Im5ldHdvcmtpbnN0aXR1dGUuYmFja2VuZHMuQ3VzdG9tVXNlckF1dGgiLCJfYXV0aF91c2VyX2hhc2giOiJiZTU0ZDA5MzE3NWEzY2YyNDEwMDU1ZDZiOGEwNzFlMDA4N2VlMWQyIiwiX2F1dGhfdXNlcl9pZCI6IjIifQ==",
+    "expire_date": "2016-03-25T15:04:34.231Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7czd5aqr6e9pwzy0cdo9lpsla86kf9mt",
+  "fields": {
+    "session_data": "OTk2M2UzNDhiZjFiN2UzYzE5MzFhZjFhNTY1YTI3NDViM2FkOWJlYTp7Im9hdXRoX2FwaS5saW5rZWRpbi5jb21fcmVxdWVzdF90b2tlbiI6eyJvYXV0aF90b2tlbl9zZWNyZXQiOiJjM2JhYTUwNi1lMjYxLTRkM2UtOTRiOC0xMjU5MjcxMjk0NzUiLCJvYXV0aF90b2tlbiI6Ijc4LS00YWIwMTY0ZC00Yzg3LTRmY2EtYWM0NC05ODYzYTY0NDZkNzEiLCJ4b2F1dGhfcmVxdWVzdF9hdXRoX3VybCI6Imh0dHBzOi8vYXBpLmxpbmtlZGluLmNvbS91YXMvb2F1dGgvYXV0aG9yaXplIiwib2F1dGhfZXhwaXJlc19pbiI6IjU5OSIsIm9hdXRoX2NhbGxiYWNrX2NvbmZpcm1lZCI6InRydWUifSwic29jaWFsYWNjb3VudF9zdGF0ZSI6W3sicHJvY2VzcyI6ImxvZ2luIiwic2NvcGUiOiIiLCJhdXRoX3BhcmFtcyI6IiJ9LCJ3TmhZSWp3bWttb2wiXX0=",
+    "expire_date": "2016-03-27T12:12:25.941Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ag0p2a6kcxs9a3b663fafm56lm5hjzew",
+  "fields": {
+    "session_data": "YTBlYjVlNTQ0YWZmODJiNzZhOGMyZDkxNWNlMDNjMGUwNjk3YzM3Yjp7Il9hdXRoX3VzZXJfaWQiOiIyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoibmV0d29ya2luc3RpdHV0ZS5iYWNrZW5kcy5DdXN0b21Vc2VyQXV0aCIsIl9hdXRoX3VzZXJfaGFzaCI6ImJlNTRkMDkzMTc1YTNjZjI0MTAwNTVkNmI4YTA3MWUwMDg3ZWUxZDIifQ==",
+    "expire_date": "2016-03-25T09:56:21.388Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bx8pa1b0elhsaxg70qxo43gmc3km3m9u",
+  "fields": {
+    "session_data": "ZmVhNDBhZWUyN2RmNWI4NDE2OGU1MWRiOWZiOWUzNTk0MDc0YzViYzp7Il9hdXRoX3VzZXJfaGFzaCI6IjBjMTk0Yjc5NjQzMDBlNzU2ZGY0NTY4NTNkMjQwZWRhOGJjMTZlNmIiLCJfYXV0aF91c2VyX2lkIjoiMTAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJuZXR3b3JraW5zdGl0dXRlLmJhY2tlbmRzLkN1c3RvbVVzZXJBdXRoIn0=",
+    "expire_date": "2016-03-25T22:12:25.288Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e2bo0ccnpq1niduef75x2l93u9yc7p5k",
+  "fields": {
+    "session_data": "MmMyZWJkZGRmY2Y0MDdiZGRjZjE5YTVjNTRiZWE1MmVkNTYwMjY2MTp7Il9hdXRoX3VzZXJfaGFzaCI6IjgxZmY2NzI3YmJmM2JkMTY4YTcyMzAzOWZjY2M5MzU5YzcwMGExZjIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJuZXR3b3JraW5zdGl0dXRlLmJhY2tlbmRzLkN1c3RvbVVzZXJBdXRoIiwiX2F1dGhfdXNlcl9pZCI6IjEifQ==",
+    "expire_date": "2016-03-25T11:57:47.178Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gvslwvr6ftvniilttuxnh5ns8hzk3bo6",
+  "fields": {
+    "session_data": "MmMyZWJkZGRmY2Y0MDdiZGRjZjE5YTVjNTRiZWE1MmVkNTYwMjY2MTp7Il9hdXRoX3VzZXJfaGFzaCI6IjgxZmY2NzI3YmJmM2JkMTY4YTcyMzAzOWZjY2M5MzU5YzcwMGExZjIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJuZXR3b3JraW5zdGl0dXRlLmJhY2tlbmRzLkN1c3RvbVVzZXJBdXRoIiwiX2F1dGhfdXNlcl9pZCI6IjEifQ==",
+    "expire_date": "2016-03-28T20:36:55.545Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kv7qwwd25xve32k4ep4z8nuq9cpr5j3l",
+  "fields": {
+    "session_data": "YTJmZmI1NjQ5Mjk1YjczNTBlYzQzMWIwMDhlZDYxNzY2ZDhkZGUxMzp7Il9hdXRoX3VzZXJfaWQiOiIxNyIsIl9hdXRoX3VzZXJfaGFzaCI6IjBlYWU3MDZiZjkyZjBjNDViMWJkMDJhODYzOWNlOTVkNWViYjI3Y2QiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhbGxhdXRoLmFjY291bnQuYXV0aF9iYWNrZW5kcy5BdXRoZW50aWNhdGlvbkJhY2tlbmQifQ==",
+    "expire_date": "2016-03-27T15:00:22.221Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nt6qzszymtr2i57lrqx1kocf0kc7rpx4",
+  "fields": {
+    "session_data": "MmMyZWJkZGRmY2Y0MDdiZGRjZjE5YTVjNTRiZWE1MmVkNTYwMjY2MTp7Il9hdXRoX3VzZXJfaGFzaCI6IjgxZmY2NzI3YmJmM2JkMTY4YTcyMzAzOWZjY2M5MzU5YzcwMGExZjIiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJuZXR3b3JraW5zdGl0dXRlLmJhY2tlbmRzLkN1c3RvbVVzZXJBdXRoIiwiX2F1dGhfdXNlcl9pZCI6IjEifQ==",
+    "expire_date": "2016-03-24T19:16:17.012Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pp43ygspq3smqc0wldc2eh6x7009fstn",
+  "fields": {
+    "session_data": "ZjNjYjc2YzQ0YjE0YTAzNzBhMjZlMzZlZWMyZGM3MWNkOGI4M2NkMTp7Il9hdXRoX3VzZXJfaGFzaCI6ImNiYmYzODMyZTA0NGNiYzU2NjI0NTYyNDBjNDkyYjY5YWZjZjU0YTQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJuZXR3b3JraW5zdGl0dXRlLmJhY2tlbmRzLkN1c3RvbVVzZXJBdXRoIiwiX2F1dGhfdXNlcl9pZCI6IjcifQ==",
+    "expire_date": "2016-03-24T20:56:53.692Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ud5j3nlfxqj00yboxm9ngfwbb8m33eku",
+  "fields": {
+    "session_data": "YWM4MjgzMTgzNjkwMjllYTk2MzFjNGJkMzkxZDZhYmY3OTg3ZmYxMTp7InNvY2lhbGFjY291bnRfc29jaWFsbG9naW4iOnsidXNlciI6eyJ1c2VybmFtZSI6IiIsImZpcnN0X25hbWUiOiJBaWRhIiwibGFzdF9uYW1lIjoiUGxvY28iLCJpc19hY3RpdmUiOnRydWUsImlkIjpudWxsLCJpc19zdXBlcnVzZXIiOmZhbHNlLCJpc19zdGFmZiI6ZmFsc2UsImxhc3RfbG9naW4iOm51bGwsInBhc3N3b3JkIjoiIW5OOXE3enJzakZQUU8wVDFpOXJ0SHVMbE5ERnRVTnJDZGh1b25mSTgiLCJlbWFpbCI6ImFpZGFwbG9jby5hcEBnbWFpbC5jb20iLCJkYXRlX2pvaW5lZCI6IjIwMTYtMDMtMTNUMTI6NTY6NDkuOTU2WiJ9LCJ0b2tlbiI6eyJhY2NvdW50X2lkIjpudWxsLCJhcHBfaWQiOjIsImV4cGlyZXNfYXQiOiIyMDE2LTAzLTEzVDEzOjU2OjQ5Ljc0NVoiLCJ0b2tlbiI6InlhMjkucEFMSTEtanhUM0laeEszZE5hOFgyajBEeVBaVVNuV003ekRaQ2VNNmx1VHRLb0FkZFdMMmtGdmRwaXppWWtsOU9nIiwiaWQiOm51bGwsInRva2VuX3NlY3JldCI6IiJ9LCJhY2NvdW50Ijp7InVzZXJfaWQiOm51bGwsInVpZCI6IjEwMDczMzkxNTE2MTQyMTMzMDk3MCIsImxhc3RfbG9naW4iOm51bGwsInByb3ZpZGVyIjoiZ29vZ2xlIiwiZXh0cmFfZGF0YSI6eyJmYW1pbHlfbmFtZSI6IlBsb2NvIiwibmFtZSI6IkFpZGEgUGxvY28iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tLy1kMFI3d0VFaklmWS9BQUFBQUFBQUFBSS9BQUFBQUFBQUFCOC9PT0JRY09ISGt3NC9waG90by5qcGciLCJsb2NhbGUiOiJlbiIsImdlbmRlciI6ImZlbWFsZSIsImVtYWlsIjoiYWlkYXBsb2NvLmFwQGdtYWlsLmNvbSIsImxpbmsiOiJodHRwczovL3BsdXMuZ29vZ2xlLmNvbS8xMDA3MzM5MTUxNjE0MjEzMzA5NzAiLCJnaXZlbl9uYW1lIjoiQWlkYSIsImlkIjoiMTAwNzMzOTE1MTYxNDIxMzMwOTcwIiwidmVyaWZpZWRfZW1haWwiOnRydWV9LCJpZCI6bnVsbCwiZGF0ZV9qb2luZWQiOm51bGx9LCJlbWFpbF9hZGRyZXNzZXMiOlt7InZlcmlmaWVkIjp0cnVlLCJ1c2VyX2lkIjpudWxsLCJlbWFpbCI6ImFpZGFwbG9jby5hcEBnbWFpbC5jb20iLCJwcmltYXJ5Ijp0cnVlLCJpZCI6bnVsbH1dLCJzdGF0ZSI6eyJwcm9jZXNzIjoibG9naW4iLCJzY29wZSI6IiIsImF1dGhfcGFyYW1zIjoiIn19LCJfYXV0aF91c2VyX2hhc2giOiI4MWZmNjcyN2JiZjNiZDE2OGE3MjMwMzlmY2NjOTM1OWM3MDBhMWYyIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoibmV0d29ya2luc3RpdHV0ZS5iYWNrZW5kcy5DdXN0b21Vc2VyQXV0aCIsIl9hdXRoX3VzZXJfaWQiOiIxIn0=",
+    "expire_date": "2016-03-27T13:11:55.145Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wv03je4bj2lq3b7650b6u5d7t8pqkek2",
+  "fields": {
+    "session_data": "ZmVhNDBhZWUyN2RmNWI4NDE2OGU1MWRiOWZiOWUzNTk0MDc0YzViYzp7Il9hdXRoX3VzZXJfaGFzaCI6IjBjMTk0Yjc5NjQzMDBlNzU2ZGY0NTY4NTNkMjQwZWRhOGJjMTZlNmIiLCJfYXV0aF91c2VyX2lkIjoiMTAiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJuZXR3b3JraW5zdGl0dXRlLmJhY2tlbmRzLkN1c3RvbVVzZXJBdXRoIn0=",
+    "expire_date": "2016-03-27T14:36:36.501Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "example.com",
+    "name": "example.com"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 2,
+  "fields": {
+    "domain": "socialweb.com",
+    "name": "socialweb.com"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 3,
+  "fields": {
+    "domain": "127.0.0.1:8000",
+    "name": "socialweb.com"
+  }
+},
+{
+  "model": "account.emailconfirmation",
+  "pk": 5,
+  "fields": {
+    "email_address": 6,
+    "created": "2016-03-13T14:59:54.293Z",
+    "sent": null,
+    "key": "89s8e928qkq9xq1ju4prdhtozc4yu6zuuuw3ygfzegyw0c1nrmkldvpqudcdmq2g"
+  }
+},
+{
+  "model": "account.emailconfirmation",
+  "pk": 6,
+  "fields": {
+    "email_address": 7,
+    "created": "2016-03-14T13:27:37.793Z",
+    "sent": null,
+    "key": "lminhrmdzva7vvqe1rkiqeoddpkqzgjurb0et856lsa8shtolr6r7lit3xy3qnno"
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 1,
+  "fields": {
+    "provider": "facebook",
+    "name": "SocialWeb",
+    "client_id": "829302253842617",
+    "secret": "22b111609b7d448a8e79898619d42fde",
+    "key": "",
+    "sites": [
+      3
+    ]
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 2,
+  "fields": {
+    "provider": "google",
+    "name": "Google",
+    "client_id": "276320975605-sr6asnpb02c1p6sroc344ct8rofl2nvo.apps.googleusercontent.com",
+    "secret": "vnTPLDslmAv9ceAuvUv2cZ8v",
+    "key": "",
+    "sites": [
+      3
+    ]
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 3,
+  "fields": {
+    "provider": "twitter",
+    "name": "Twitter",
+    "client_id": "qbGPBgsKTlFXztyt6DhoKncJh",
+    "secret": "oR2d7LRibAFiKB8g6IKv14MgLPbanUHkiEjBJ7XXBVfn2iIumD",
+    "key": "",
+    "sites": [
+      3
+    ]
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 4,
+  "fields": {
+    "provider": "linkedin",
+    "name": "LinkedIn",
+    "client_id": "77m2irvdy5dlo0",
+    "secret": "SrU2foqsYYpkGVhL",
+    "key": "",
+    "sites": [
+      3
+    ]
+  }
+},
+{
+  "model": "socialaccount.socialtoken",
+  "pk": 9,
+  "fields": {
+    "app": 4,
+    "account": 9,
+    "token": "78a4803f-f65f-4d12-a1e1-78710e3c06fa",
+    "token_secret": "af0493fa-9588-48a2-a52e-4799083213bb",
+    "expires_at": null
+  }
+},
+{
+  "model": "socialaccount.socialtoken",
+  "pk": 10,
+  "fields": {
+    "app": 2,
+    "account": 10,
+    "token": "ya29.pAIo160Z4BQk0EsZ-sJ3CKo3kMoC7hCwh3EestU3R5lcYX5wKzzsu32JWK2A536VuA",
+    "token_secret": "",
+    "expires_at": "2016-03-13T16:00:21.128Z"
+  }
+},
+{
+  "model": "socialaccount.socialtoken",
+  "pk": 11,
+  "fields": {
+    "app": 4,
+    "account": 11,
+    "token": "8b10253e-eafc-4e4a-81e9-29644c24a651",
+    "token_secret": "37346480-369e-4cf7-a9d9-7e150cf43a4a",
+    "expires_at": null
+  }
+},
+{
+  "model": "socialaccount.socialtoken",
+  "pk": 12,
+  "fields": {
+    "app": 2,
+    "account": 12,
+    "token": "ya29.pAJFX05h06jzEDzmElh6PVBjdqIprNCum37ms8oJgvEJU9msJL0sgZ4j3xXf_lWWRg",
+    "token_secret": "",
+    "expires_at": "2016-03-14T15:33:32.750Z"
+  }
+},
+{
+  "model": "networkinstitute.customuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$6fzdXbLyo713$uuEpylmV2kfBgHdQk/8qv+ujdBQXH2qKzGZJTHoe7HE=",
+    "last_login": "2016-03-14T20:36:55.536Z",
+    "is_superuser": true,
+    "first_name": "Aida",
+    "last_name": "Ploco",
+    "username": "",
+    "email": "a.ploco@student.vu.nl",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-03-09T00:27:22Z",
+    "groups": [],
+    "user_permissions": [
+      1,
+      2,
+      3,
+      7,
+      8,
+      9,
+      4,
+      5,
+      6,
+      10,
+      11,
+      12,
+      16,
+      17,
+      18,
+      25,
+      26,
+      27,
+      22,
+      23,
+      24,
+      19,
+      20,
+      21,
+      13,
+      14,
+      15
+    ]
+  }
+},
+{
+  "model": "networkinstitute.customuser",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$IJzy4sGF7xVK$t2LY+0hVcw2oTTKNj4jrG7wSIKeX6V07Q9/JJ3RWhm0=",
+    "last_login": "2016-03-14T14:50:02.432Z",
+    "is_superuser": false,
+    "first_name": "Jovana",
+    "last_name": "Jevtic",
+    "username": "",
+    "email": "j.jevtic@student.vu.nl",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-03-09T12:01:34Z",
+    "groups": [],
+    "user_permissions": [
+      16,
+      17,
+      18,
+      25,
+      26,
+      27,
+      22,
+      23,
+      24,
+      19,
+      20,
+      21
+    ]
+  }
+},
+{
+  "model": "networkinstitute.customuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$iXDiziOukXuG$YujJwHOkQHV4QpUybYHA+gkh936wh3le812kdpLf8pg=",
+    "last_login": "2016-03-13T09:23:18.950Z",
+    "is_superuser": false,
+    "first_name": "Daniela",
+    "last_name": "Cretu",
+    "username": "",
+    "email": "d.cretu@student.vu.nl",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-03-09T12:02:57Z",
+    "groups": [],
+    "user_permissions": [
+      16,
+      17,
+      18,
+      25,
+      26,
+      27,
+      22,
+      23,
+      24,
+      19,
+      20,
+      21
+    ]
+  }
+},
+{
+  "model": "networkinstitute.customuser",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$vuYTpqp7NYYM$EHJWUffzNDBJXnERNYZeOXElcjTNeeUmG6SOCwrCbjU=",
+    "last_login": "2016-03-14T20:36:37.459Z",
+    "is_superuser": false,
+    "first_name": "Loes",
+    "last_name": "Dubbelman",
+    "username": "",
+    "email": "l.dubbelman@student.vu.nl",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-03-09T12:03:50Z",
+    "groups": [],
+    "user_permissions": [
+      16,
+      17,
+      18,
+      25,
+      26,
+      27,
+      22,
+      23,
+      24,
+      19,
+      20,
+      21
+    ]
+  }
+},
+{
+  "model": "networkinstitute.customuser",
+  "pk": 9,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$kPydgDnzkbnK$zmmD/FZMjpWpuBb8kY051S21TcrDsBwNQcZ8JLhqERg=",
+    "last_login": "2016-03-13T02:02:38.972Z",
+    "is_superuser": false,
+    "first_name": "Test",
+    "last_name": "User",
+    "username": "",
+    "email": "testuser@test.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-03-11T11:38:20.701Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "networkinstitute.customuser",
+  "pk": 10,
+  "fields": {
+    "password": "pbkdf2_sha256$24000$mozguAKE30kI$3spfHcgMS2NJFH0WMgdZkwPygqpaYsqZQBUqpmyXcpI=",
+    "last_login": "2016-03-13T14:36:36.414Z",
+    "is_superuser": true,
+    "first_name": "Admin",
+    "last_name": "Admin",
+    "username": "",
+    "email": "admin@admin.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2016-03-11T19:03:18.413Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "networkinstitute.customuser",
+  "pk": 11,
+  "fields": {
+    "password": "!Fzy1K713P7JV1VapaNdAwAhrMbUB0QGD4oJDckMn",
+    "last_login": "2016-03-11T21:33:52.744Z",
+    "is_superuser": false,
+    "first_name": "Dani",
+    "last_name": "C",
+    "username": "DaniCretu",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-03-11T21:31:04.891Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "networkinstitute.customuser",
+  "pk": 17,
+  "fields": {
+    "password": "!RztXc6he7PHJu5Oim6CvADifM2YEoJsALuCHmzqP",
+    "last_login": "2016-03-13T15:00:22.130Z",
+    "is_superuser": false,
+    "first_name": "Daniela",
+    "last_name": "Cretu",
+    "username": "daniela",
+    "email": "cretu.daniela9@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-03-13T14:59:53.962Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "networkinstitute.customuser",
+  "pk": 18,
+  "fields": {
+    "password": "!r9dsIKrY0R2fGkJq7znf9zfKBDy7WqESrQusIFne",
+    "last_login": "2016-03-14T14:33:50.727Z",
+    "is_superuser": false,
+    "first_name": "Jovana",
+    "last_name": "Jevtic",
+    "username": "jovana",
+    "email": "jovana.jevtic92@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2016-03-14T13:27:37.168Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "networkinstitute.projectowner",
+  "pk": 1,
+  "fields": {}
+},
+{
+  "model": "networkinstitute.projectowner",
+  "pk": 4,
+  "fields": {}
+},
+{
+  "model": "networkinstitute.projectowner",
+  "pk": 9,
+  "fields": {}
+},
+{
+  "model": "networkinstitute.projectowner",
+  "pk": 11,
+  "fields": {}
+},
+{
+  "model": "networkinstitute.project",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "name": "Social Web Project",
+    "description": "This is my first project",
+    "deadline": "2016-03-09",
+    "members": [],
+    "faculties": []
+  }
+},
+{
+  "model": "networkinstitute.project",
+  "pk": 2,
+  "fields": {
+    "owner": 1,
+    "name": "Medical project",
+    "description": "This is my second project",
+    "deadline": "2016-03-17",
+    "members": [
+      2,
+      3,
+      4
+    ],
+    "faculties": []
+  }
+},
+{
+  "model": "networkinstitute.project",
+  "pk": 4,
+  "fields": {
+    "owner": 9,
+    "name": "TestUser Project",
+    "description": "Just testin'",
+    "deadline": "2016-05-19",
+    "members": [
+      1
+    ],
+    "faculties": []
+  }
+},
+{
+  "model": "networkinstitute.project",
+  "pk": 5,
+  "fields": {
+    "owner": 11,
+    "name": "TwitterProject",
+    "description": "Some Twitter Project",
+    "deadline": "2016-12-12",
+    "members": [],
+    "faculties": []
+  }
+},
+{
+  "model": "networkinstitute.project",
+  "pk": 7,
+  "fields": {
+    "owner": 4,
+    "name": "Status project",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "deadline": "2016-06-06",
+    "members": [
+      1,
+      2,
+      3,
+      9
+    ],
+    "faculties": []
+  }
+},
+{
+  "model": "networkinstitute.project",
+  "pk": 8,
+  "fields": {
+    "owner": 1,
+    "name": "New Project",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+    "deadline": "2016-08-08",
+    "members": [],
+    "faculties": [
+      1,
+      8
+    ]
+  }
+},
+{
+  "model": "networkinstitute.status",
+  "pk": 1,
+  "fields": {
+    "project": 7,
+    "member": 3,
+    "status": "O"
+  }
+},
+{
+  "model": "networkinstitute.status",
+  "pk": 3,
+  "fields": {
+    "project": 2,
+    "member": 2,
+    "status": "D"
+  }
+},
+{
+  "model": "networkinstitute.status",
+  "pk": 4,
+  "fields": {
+    "project": 2,
+    "member": 3,
+    "status": "O"
+  }
+},
+{
+  "model": "networkinstitute.status",
+  "pk": 7,
+  "fields": {
+    "project": 4,
+    "member": 1,
+    "status": "O"
+  }
+},
+{
+  "model": "networkinstitute.status",
+  "pk": 8,
+  "fields": {
+    "project": 2,
+    "member": 4,
+    "status": "A"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2016-03-09T12:01:35.025Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "j.jevtic@student.vu.nl",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2016-03-09T12:02:33.262Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "j.jevtic@student.vu.nl",
+    "action_flag": 2,
+    "change_message": "Changed first_name, last_name, is_staff, user_permissions and last_login."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2016-03-09T12:02:57.305Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "d.cretu@student.vu.nl",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2016-03-09T12:03:19.295Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "d.cretu@student.vu.nl",
+    "action_flag": 2,
+    "change_message": "Changed first_name, last_name, is_staff, user_permissions and last_login."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2016-03-09T12:03:50.953Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "l.dubbelman@student.vu.nl",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2016-03-09T12:04:10.241Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "l.dubbelman@student.vu.nl",
+    "action_flag": 2,
+    "change_message": "Changed first_name, last_name, is_staff, user_permissions and last_login."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2016-03-09T13:48:28.396Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "a.ploco@student.vu.nl",
+    "action_flag": 2,
+    "change_message": "Changed facebook, twitter, user_permissions and last_login."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2016-03-09T13:49:01.562Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "j.jevtic@student.vu.nl",
+    "action_flag": 2,
+    "change_message": "Changed facebook."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2016-03-09T14:23:09.464Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2016-03-09T14:23:42.294Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2016-03-09T14:23:50.725Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2016-03-09T14:24:02.422Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2016-03-09T14:24:17.743Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2016-03-09T14:24:22.887Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2016-03-09T14:24:29.415Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2016-03-09T14:24:41.430Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2016-03-09T14:24:48.783Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2016-03-09T14:24:55.504Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2016-03-09T14:25:00.442Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2016-03-09T14:25:07.846Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2016-03-09T14:25:21.919Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2016-03-09T14:25:45.985Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2016-03-09T14:26:04.509Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2016-03-09T14:26:23.841Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2016-03-09T14:26:37.823Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "17",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2016-03-09T14:26:53.780Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "18",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2016-03-09T14:26:56.879Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "19",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2016-03-09T14:27:08.767Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "20",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2016-03-09T14:27:50.673Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "21",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2016-03-09T14:27:57.895Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "22",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2016-03-09T14:28:14.727Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "23",
+    "object_repr": "Faculty object",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2016-03-10T20:55:14.194Z",
+    "user": 3,
+    "content_type": 6,
+    "object_id": "5",
+    "object_repr": "Dani C",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2016-03-10T20:55:14.292Z",
+    "user": 3,
+    "content_type": 6,
+    "object_id": "6",
+    "object_repr": "Daani C",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2016-03-11T14:11:14.342Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Test Project",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2016-03-11T19:12:05.457Z",
+    "user": 10,
+    "content_type": 13,
+    "object_id": "1",
+    "object_repr": "SocialWeb",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2016-03-11T19:55:41.357Z",
+    "user": 10,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "SocialWeb",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2016-03-11T20:04:51.016Z",
+    "user": 10,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "SocialWeb",
+    "action_flag": 2,
+    "change_message": "Changed client_id and secret."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2016-03-11T20:06:00.365Z",
+    "user": 10,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "GoogleA",
+    "action_flag": 2,
+    "change_message": "Changed name."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2016-03-11T21:29:48.054Z",
+    "user": 10,
+    "content_type": 13,
+    "object_id": "3",
+    "object_repr": "Twitter",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2016-03-11T21:39:27.120Z",
+    "user": 10,
+    "content_type": 13,
+    "object_id": "2",
+    "object_repr": "Google",
+    "action_flag": 2,
+    "change_message": "Changed name."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2016-03-11T21:43:12.806Z",
+    "user": 10,
+    "content_type": 6,
+    "object_id": "7",
+    "object_repr": "Dani Cretu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2016-03-11T21:43:13.393Z",
+    "user": 10,
+    "content_type": 6,
+    "object_id": "8",
+    "object_repr": "D C",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2016-03-11T22:07:50.574Z",
+    "user": 10,
+    "content_type": 13,
+    "object_id": "4",
+    "object_repr": "LinkedIn",
+    "action_flag": 1,
+    "change_message": "Added."
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2016-03-13T09:02:04.406Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "6",
+    "object_repr": "TestUser Project",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2016-03-13T09:02:04.414Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "5",
+    "object_repr": "TestUser Project",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2016-03-13T09:02:04.420Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "2",
+    "object_repr": "TestUser Project",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2016-03-13T09:44:50.610Z",
+    "user": 1,
+    "content_type": 16,
+    "object_id": "9",
+    "object_repr": "Medical project",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2016-03-13T14:36:47.238Z",
+    "user": 10,
+    "content_type": 6,
+    "object_id": "12",
+    "object_repr": "Daniela Cretu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2016-03-13T14:37:29.848Z",
+    "user": 10,
+    "content_type": 14,
+    "object_id": "3",
+    "object_repr": "Daniela Cretu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2016-03-13T14:37:30.073Z",
+    "user": 10,
+    "content_type": 14,
+    "object_id": "1",
+    "object_repr": "Dani C",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2016-03-13T14:45:33.407Z",
+    "user": 10,
+    "content_type": 6,
+    "object_id": "15",
+    "object_repr": "Daniela Cretu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2016-03-13T14:49:07.183Z",
+    "user": 10,
+    "content_type": 6,
+    "object_id": "13",
+    "object_repr": "Daniela Cretu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2016-03-13T14:50:05.850Z",
+    "user": 10,
+    "content_type": 6,
+    "object_id": "16",
+    "object_repr": "Daniela Cretu",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2016-03-13T14:58:57.457Z",
+    "user": 10,
+    "content_type": 6,
+    "object_id": "14",
+    "object_repr": "Aida Plo\u010do",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 6,
+  "fields": {
+    "user": 17,
+    "email": "cretu.daniela9@gmail.com",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 7,
+  "fields": {
+    "user": 18,
+    "email": "jovana.jevtic92@gmail.com",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "socialaccount.socialaccount",
+  "pk": 9,
+  "fields": {
+    "user": 17,
+    "provider": "linkedin",
+    "uid": "_luOY5BXyJ",
+    "last_login": "2016-03-13T15:00:06.703Z",
+    "date_joined": "2016-03-13T14:59:54.050Z",
+    "extra_data": "{\"email-address\": \"cretu.daniela9@gmail.com\", \"last-name\": \"Cretu\", \"picture-urls\": null, \"public-profile-url\": \"https://www.linkedin.com/in/daniela-cretu-68912986\", \"first-name\": \"Daniela\", \"id\": \"_luOY5BXyJ\"}"
+  }
+},
+{
+  "model": "socialaccount.socialaccount",
+  "pk": 10,
+  "fields": {
+    "user": 17,
+    "provider": "google",
+    "uid": "116773878100782815934",
+    "last_login": "2016-03-13T15:00:21.773Z",
+    "date_joined": "2016-03-13T15:00:21.773Z",
+    "extra_data": "{\"family_name\": \"Cretu\", \"name\": \"Daniela Cretu\", \"picture\": \"https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg\", \"locale\": \"en\", \"gender\": \"female\", \"id\": \"116773878100782815934\", \"link\": \"https://plus.google.com/116773878100782815934\", \"given_name\": \"Daniela\", \"email\": \"cretu.daniela9@gmail.com\", \"verified_email\": true}"
+  }
+},
+{
+  "model": "socialaccount.socialaccount",
+  "pk": 11,
+  "fields": {
+    "user": 18,
+    "provider": "linkedin",
+    "uid": "re1RR5croh",
+    "last_login": "2016-03-14T14:33:50.108Z",
+    "date_joined": "2016-03-14T13:27:37.332Z",
+    "extra_data": "{\"email-address\": \"jovana.jevtic92@gmail.com\", \"last-name\": \"Jevtic\", \"picture-urls\": {\"picture-url\": \"https://media.licdn.com/mpr/mprx/0_-fvgaA15vpL-2G0Q-SZPSryLPfq-7PxQ1pIrHKfwgUvAItDHl0qlEVg7T7K\"}, \"public-profile-url\": \"https://www.linkedin.com/in/jovanajevtic\", \"picture-url\": \"https://media.licdn.com/mpr/mprx/0_vrCZ-hi1acRpr09rz-rw-C1YmK0yrsBrccnF-C8flvISfO8KJ9tNyGq38OxCPgnpN18QjL-6kPgt\", \"first-name\": \"Jovana\", \"id\": \"re1RR5croh\"}"
+  }
+},
+{
+  "model": "socialaccount.socialaccount",
+  "pk": 12,
+  "fields": {
+    "user": 18,
+    "provider": "google",
+    "uid": "107036174775029429838",
+    "last_login": "2016-03-14T14:33:34.999Z",
+    "date_joined": "2016-03-14T13:34:15.983Z",
+    "extra_data": "{\"picture\": \"https://lh6.googleusercontent.com/-ijC5rQEVzBs/AAAAAAAAAAI/AAAAAAAAAaQ/j2lvtleM2NE/photo.jpg\", \"name\": \"Jovana Jevtic\", \"family_name\": \"Jevtic\", \"locale\": \"en\", \"gender\": \"female\", \"id\": \"107036174775029429838\", \"link\": \"https://plus.google.com/107036174775029429838\", \"given_name\": \"Jovana\", \"email\": \"jovana.jevtic92@gmail.com\", \"verified_email\": true}"
+  }
+}
+]
