@@ -11,16 +11,6 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 """
 
 import os
-import dj_database_url
-
-DATABASES = {'default': dj_database_url.config()}
-DATABASES['default'] = dj_database_url.config()
-
-SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-
-ALLOWED_HOSTS = ['*']
-
-DEBUG = False
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -32,8 +22,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '*h166l$ueyk2crgvzg647a7gm4ln-mfvaextfudc^z%*ccmywj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = True
 
 PROJECT_FOLDER = os.getcwd()
+
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -114,11 +107,12 @@ WSGI_APPLICATION = 'socialwebproject.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
-try:
-    from .local_settings import *
-except ImportError:
-    pass
-
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(PROJECT_FOLDER, 'development.db'),
+    }
+}
 
 LOGGING = {
     'version': 1,
@@ -205,7 +199,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 STATIC_ROOT = os.path.join(BASE_DIR,'static_media/')
 
-#SITE_ID = 1
+SITE_ID = 3
 
 LOGIN_URL = 'socialweb_login'
 LOGOUT_URL = 'socialweb_logout'
@@ -214,3 +208,17 @@ SOCIALACCOUNT_QUERY_EMAIL = True
 SOCIALACCOUNT_ADAPTER = 'myadapter.my_adapter.MyAdapter'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap3'
+
+import dj_database_url
+DATABASES['default'] = dj_database_url.config()
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+ALLOWED_HOSTS = ['*']
+
+DEBUG = False
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
