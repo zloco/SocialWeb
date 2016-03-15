@@ -160,14 +160,7 @@
         "name": "VUmc Cancer Center Amsterdam"
     }
 },
-{
-    "model": "sites.site",
-    "pk": 1,
-    "fields": {
-        "domain": "example.com",
-        "name": "example.com"
-    }
-},
+
 {
     "model": "sites.site",
     "pk": 2,
@@ -182,6 +175,14 @@
     "fields": {
         "domain": "127.0.0.1:8000",
         "name": "socialweb.com"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 4,
+    "fields": {
+        "domain": "https://networkinstitute.herokuapp.com",
+        "name": "https://networkinstitute.herokuapp.com"
     }
 },
 {
