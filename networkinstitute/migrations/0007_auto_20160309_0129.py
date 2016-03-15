@@ -20,11 +20,6 @@ class Migration(migrations.Migration):
         ),
         migrations.AddField(
             model_name='customuser',
-            name='is_superuser',
-            field=models.BooleanField(default=False, help_text='Designates that this user has all permissions without explicitly assigning them.', verbose_name='superuser status'),
-        ),
-        migrations.AddField(
-            model_name='customuser',
             name='user_permissions',
             field=models.ManyToManyField(blank=True, help_text='Specific permissions for this user.', related_name='user_set', related_query_name='user', to='auth.Permission', verbose_name='user permissions'),
         ),

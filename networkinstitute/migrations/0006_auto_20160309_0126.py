@@ -12,6 +12,11 @@ class Migration(migrations.Migration):
     ]
 
     operations = [
+		migrations.AddField(
+            model_name='customuser',
+            name='is_superuser',
+            field=models.BooleanField(default=False, help_text='Designates that this user has all permissions without explicitly assigning them.', verbose_name='superuser status'),
+        ),
         migrations.AlterField(
             model_name='customuser',
             name='is_superuser',
