@@ -139,13 +139,26 @@ class ProjectOwnerManager(models.Manager):
 class ProjectOwner(models.Model):
 	member = models.OneToOneField(CustomUser, on_delete=models.CASCADE, primary_key=True)
 
+	USERNAME_FIELD = 'member'
+
 	objects = ProjectOwnerManager()
 
 	def __str__(self):
 		return "{0}".format(self.member.get_full_name())
 
+class FacultyManager(models.Model):
+	def _create_faculty(self, name):
+		faculty = self.model(name=name)
+		faculty.save(using=self._db)
+		return faculty
+
+	def create_faculty(self, name):
+		return self._create_faculty(name)
+
 class Faculty(models.Model):
 	name = models.CharField(max_length=100, default="Faculty")
+
+	USERNAME_FIELD = 'name'
 
 	def __str__(self):
 		return "{0}".format(self.name)
@@ -167,6 +180,8 @@ class Project(models.Model):
 	name = models.CharField(max_length=100)
 	description = models.TextField(help_text="Please provide a description, be sure to mention skills required, number of jobs available etc.")
 	deadline = models.DateField(help_text="Please state the last date for applying to the project as yyyy-mm-dd")
+
+	USERNAME_FIELD = 'name'
 
 	objects = ProjectManager()
 
@@ -193,6 +208,8 @@ class Status(models.Model):
 	project = models.ForeignKey(Project, on_delete=models.CASCADE)
 	member = models.ForeignKey(CustomUser, on_delete=models.CASCADE, null=True)
 	status = models.CharField(max_length=1, default='O', choices=StatusType.choices, validators=[StatusType.validator])
+
+	#USERNAME_FIELD = ''
 
 	objects = StatusManager()
 

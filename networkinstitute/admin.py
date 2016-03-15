@@ -87,7 +87,7 @@ class FacultyAdmin(UserAdmin):
     add_fieldsets = (
         (None, {
             'classes': ('wide',),
-            'fields': ('name')}
+            'fields': ('name',)}
         ),
     )
     form = FacultyChangeForm

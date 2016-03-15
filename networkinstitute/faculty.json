@@ -1,0 +1,163 @@
+[
+{
+  "model": "networkinstitute.faculty",
+  "pk": 1,
+  "fields": {
+    "name": "Arts"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 2,
+  "fields": {
+    "name": "Centre for Educational Training, Assesment and Research"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 3,
+  "fields": {
+    "name": "Dentistry / ACTA"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 4,
+  "fields": {
+    "name": "Earth and Life Sciences"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 5,
+  "fields": {
+    "name": "Economics and Business Administration"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 6,
+  "fields": {
+    "name": "Human Movement Sciences"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 7,
+  "fields": {
+    "name": "Law"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 8,
+  "fields": {
+    "name": "Philosophy"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 9,
+  "fields": {
+    "name": "Psychology and Education"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 10,
+  "fields": {
+    "name": "Sciences"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 11,
+  "fields": {
+    "name": "Social Sciences"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 12,
+  "fields": {
+    "name": "Theology"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 13,
+  "fields": {
+    "name": "VUmc School of Medical Sciences"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 14,
+  "fields": {
+    "name": "Amsterdam Global Change Institute"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 15,
+  "fields": {
+    "name": "Amsterdam Institute for Molecules, Medicines and Systems"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 16,
+  "fields": {
+    "name": "Cultural Landscape and Urban Environment research institute"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 17,
+  "fields": {
+    "name": "Institute for Cardiovascular Research"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 18,
+  "fields": {
+    "name": "Institute for Lasers, Life and Biophotonics Amsterdam"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 19,
+  "fields": {
+    "name": "MOVE"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 20,
+  "fields": {
+    "name": "Neuroscience Campus Amsterdam"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 21,
+  "fields": {
+    "name": "Phoolan Devi Institute"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 22,
+  "fields": {
+    "name": "VISOR"
+  }
+},
+{
+  "model": "networkinstitute.faculty",
+  "pk": 23,
+  "fields": {
+    "name": "VUmc Cancer Center Amsterdam"
+  }
+}
+]
